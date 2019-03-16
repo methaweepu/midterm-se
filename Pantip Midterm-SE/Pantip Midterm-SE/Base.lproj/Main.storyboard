@@ -73,11 +73,16 @@
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUv-Vj-m8C">
+                                <rect key="frame" x="317" y="20" width="50" height="30"/>
+                                <state key="normal" title="English"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.30073139071464539" green="0.16873669624328613" blue="0.4863017201423645" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="9bh-HQ-fwj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="2bY-Dd-cAe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9bh-HQ-fwj" secondAttribute="trailing" constant="60" id="3q3-jE-oJk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MUv-Vj-m8C" secondAttribute="trailing" constant="8" id="4u8-jq-6P5"/>
                             <constraint firstItem="uW7-rY-ebv" firstAttribute="top" secondItem="yuJ-fL-0oX" secondAttribute="bottom" constant="8" id="76J-Nd-h2o"/>
                             <constraint firstItem="yuJ-fL-0oX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="86u-Qm-02T"/>
                             <constraint firstItem="BkN-Et-Mcl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="8Da-8t-1q9"/>
@@ -89,6 +94,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yuJ-fL-0oX" secondAttribute="trailing" constant="60" id="Ueh-US-q89"/>
                             <constraint firstItem="yuJ-fL-0oX" firstAttribute="top" secondItem="kM3-La-Naw" secondAttribute="bottom" constant="8" id="ZNp-V3-mp9"/>
                             <constraint firstItem="Mk7-L0-UHp" firstAttribute="top" secondItem="yuJ-fL-0oX" secondAttribute="bottom" constant="8" id="gA6-iN-sbG"/>
+                            <constraint firstItem="MUv-Vj-m8C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="isR-8m-EVi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BkN-Et-Mcl" secondAttribute="trailing" constant="68" id="qSY-L2-ERL"/>
                             <constraint firstItem="yuJ-fL-0oX" firstAttribute="top" secondItem="kM3-La-Naw" secondAttribute="bottom" constant="8" id="qmn-kQ-b2D"/>
                             <constraint firstItem="uW7-rY-ebv" firstAttribute="leading" secondItem="yuJ-fL-0oX" secondAttribute="leading" id="wLk-sn-EgZ"/>
