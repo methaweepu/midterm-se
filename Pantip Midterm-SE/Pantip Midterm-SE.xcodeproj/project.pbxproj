@@ -103,12 +103,12 @@
 			children = (
 				DD59B4DD223CDF6A00C3E78F /* AppDelegate.swift */,
 				DD59B4DF223CDF6A00C3E78F /* ViewController.swift */,
+				DD59B50D223CE47700C3E78F /* RegisterViewController.swift */,
 				DD59B4E1223CDF6A00C3E78F /* Main.storyboard */,
 				DD59B4E4223CDF6C00C3E78F /* Assets.xcassets */,
 				DD59B4E6223CDF6C00C3E78F /* LaunchScreen.storyboard */,
 				DD59B4E9223CDF6C00C3E78F /* Info.plist */,
 				DD59B50B223CE1D400C3E78F /* LoginViewController.swift */,
-				DD59B50D223CE47700C3E78F /* RegisterViewController.swift */,
 			);
 			path = "Pantip Midterm-SE";
 			sourceTree = "<group>";

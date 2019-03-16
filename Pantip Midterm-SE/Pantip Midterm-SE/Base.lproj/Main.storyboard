@@ -62,6 +62,9 @@
                                 <state key="normal" title="สมัครสมาชิก">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3m0-b2-JBq" kind="modal" id="AuP-Dp-TsH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk7-L0-UHp">
                                 <rect key="frame" x="250" y="495" width="65" height="29"/>
@@ -97,6 +100,132 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="42.399999999999999" y="60.719640179910051"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="eJ9-ts-EE0">
+            <objects>
+                <viewController id="3m0-b2-JBq" customClass="RegisterViewController" customModule="Pantip_Midterm_SE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qqx-tU-cke">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pantip_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ufx-15-YdZ">
+                                <rect key="frame" x="68" y="50" width="239" height="127.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ufx-15-YdZ" secondAttribute="height" multiplier="15:8" id="xWt-pL-123"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สมัครสมาชิก" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyZ-u8-59o">
+                                <rect key="frame" x="145.5" y="277.5" width="84.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  ชื่อผู้ใช้" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Up4-k3-gSE">
+                                <rect key="frame" x="60" y="307" width="255" height="35"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="tpg-Yf-2VW"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  ชื่อ - นามสกุล" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fd1-i1-lEb">
+                                <rect key="frame" x="60" y="350" width="255" height="35"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="rIR-ZP-gcn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  เบอร์โทรศัพท์" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h29-ex-hsU">
+                                <rect key="frame" x="60" y="393" width="255" height="35"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="zaN-ol-s79"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  รหัสผ่าน" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xqc-Ys-b2c">
+                                <rect key="frame" x="60" y="436" width="255" height="35"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="mTo-3q-zde"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  ยันยันรหัสผ่าน" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mFA-fA-bux">
+                                <rect key="frame" x="60" y="479" width="255" height="35"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="big-io-xmG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvS-rI-ywo">
+                                <rect key="frame" x="60" y="522" width="255" height="45"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="eMr-Q4-ygJ"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="สมัครสมาชิก">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sxe-pB-CeG">
+                                <rect key="frame" x="330" y="20" width="37" height="30"/>
+                                <state key="normal" title="close">
+                                    <color key="titleColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="fLV-AM-TSS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30073139069999999" green="0.16873669620000001" blue="0.4863017201" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Ufx-15-YdZ" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="68" id="53l-nM-Dtm"/>
+                            <constraint firstItem="Ufx-15-YdZ" firstAttribute="top" secondItem="1RA-OB-6w0" secondAttribute="top" constant="30" id="7Nn-jC-v8D"/>
+                            <constraint firstItem="mFA-fA-bux" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="60" id="8V9-HV-ooI"/>
+                            <constraint firstItem="Up4-k3-gSE" firstAttribute="top" secondItem="jyZ-u8-59o" secondAttribute="bottom" constant="10" id="A9u-1N-7EO"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="fd1-i1-lEb" secondAttribute="trailing" constant="60" id="DqV-4g-U40"/>
+                            <constraint firstItem="fd1-i1-lEb" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="60" id="ECv-Ch-sEb"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="xqc-Ys-b2c" secondAttribute="trailing" constant="60" id="GrH-VB-L3V"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="Sxe-pB-CeG" secondAttribute="trailing" constant="8" id="H8C-yZ-oyL"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="h29-ex-hsU" secondAttribute="trailing" constant="60" id="I40-G1-W5o"/>
+                            <constraint firstItem="h29-ex-hsU" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="60" id="Kee-y7-888"/>
+                            <constraint firstItem="jyZ-u8-59o" firstAttribute="centerX" secondItem="qqx-tU-cke" secondAttribute="centerX" id="Pm6-ZJ-Lyw"/>
+                            <constraint firstItem="QvS-rI-ywo" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="60" id="RRa-6f-WtV"/>
+                            <constraint firstItem="QvS-rI-ywo" firstAttribute="top" secondItem="mFA-fA-bux" secondAttribute="bottom" constant="8" id="Uin-Jr-AhD"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="Ufx-15-YdZ" secondAttribute="trailing" constant="68" id="aTt-6h-ayC"/>
+                            <constraint firstItem="xqc-Ys-b2c" firstAttribute="top" secondItem="h29-ex-hsU" secondAttribute="bottom" constant="8" id="ehg-KP-48i"/>
+                            <constraint firstItem="Up4-k3-gSE" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="60" id="iw1-w8-hEv"/>
+                            <constraint firstItem="mFA-fA-bux" firstAttribute="top" secondItem="xqc-Ys-b2c" secondAttribute="bottom" constant="8" id="lxb-U4-Lp7"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="QvS-rI-ywo" secondAttribute="trailing" constant="60" id="n2M-Cg-7xh"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="bottom" secondItem="QvS-rI-ywo" secondAttribute="bottom" constant="100" id="tKe-L5-7X1"/>
+                            <constraint firstItem="Sxe-pB-CeG" firstAttribute="top" secondItem="1RA-OB-6w0" secondAttribute="top" id="tTy-aQ-uGl"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="Up4-k3-gSE" secondAttribute="trailing" constant="60" id="teH-8h-fea"/>
+                            <constraint firstItem="xqc-Ys-b2c" firstAttribute="leading" secondItem="1RA-OB-6w0" secondAttribute="leading" constant="60" id="u88-Ri-qfe"/>
+                            <constraint firstItem="h29-ex-hsU" firstAttribute="top" secondItem="fd1-i1-lEb" secondAttribute="bottom" constant="8" id="uI9-il-nj5"/>
+                            <constraint firstItem="1RA-OB-6w0" firstAttribute="trailing" secondItem="mFA-fA-bux" secondAttribute="trailing" constant="60" id="vaz-b3-lHl"/>
+                            <constraint firstItem="fd1-i1-lEb" firstAttribute="top" secondItem="Up4-k3-gSE" secondAttribute="bottom" constant="8" id="z06-2M-hZx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1RA-OB-6w0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xmR-Gk-PYc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79999999999995" y="60.719640179910051"/>
         </scene>
     </scenes>
     <resources>
