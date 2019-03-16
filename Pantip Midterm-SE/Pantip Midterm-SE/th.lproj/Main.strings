@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = " เข้าสู่ระบบด้วย facebook"; ObjectID = "9bh-HQ-fwj"; */
+"9bh-HQ-fwj.normalTitle" = " เข้าสู่ระบบด้วย facebook";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "MUv-Vj-m8C"; */
+"MUv-Vj-m8C.normalTitle" = "English";
+
+/* Class = "UIButton"; normalTitle = "ลืมรหัสผ่าน"; ObjectID = "Mk7-L0-UHp"; */
+"Mk7-L0-UHp.normalTitle" = "ลืมรหัสผ่าน";
+
+/* Class = "UIButton"; normalTitle = "สมัครสมาชิก"; ObjectID = "QvS-rI-ywo"; */
+"QvS-rI-ywo.normalTitle" = "สมัครสมาชิก";
+
+/* Class = "UIButton"; normalTitle = "close"; ObjectID = "Sxe-pB-CeG"; */
+"Sxe-pB-CeG.normalTitle" = "ปิด";
+
+/* Class = "UITextField"; placeholder = "  ชื่อผู้ใช้"; ObjectID = "Up4-k3-gSE"; */
+"Up4-k3-gSE.placeholder" = "  ชื่อผู้ใช้";
+
+/* Class = "UITextField"; placeholder = "  ชื่อ - นามสกุล"; ObjectID = "fd1-i1-lEb"; */
+"fd1-i1-lEb.placeholder" = "  ชื่อ - นามสกุล";
+
+/* Class = "UITextField"; placeholder = "  เบอร์โทรศัพท์"; ObjectID = "h29-ex-hsU"; */
+"h29-ex-hsU.placeholder" = "  เบอร์โทรศัพท์";
+
+/* Class = "UILabel"; text = "สมัครสมาชิก"; ObjectID = "jyZ-u8-59o"; */
+"jyZ-u8-59o.text" = "สมัครสมาชิก";
+
+/* Class = "UIButton"; normalTitle = "เข้าสู่ระบบด้วย twitter"; ObjectID = "kM3-La-Naw"; */
+"kM3-La-Naw.normalTitle" = "เข้าสู่ระบบด้วย twitter";
+
+/* Class = "UITextField"; placeholder = "  ยันยันรหัสผ่าน"; ObjectID = "mFA-fA-bux"; */
+"mFA-fA-bux.placeholder" = "  ยันยันรหัสผ่าน";
+
+/* Class = "UIButton"; normalTitle = "สมัครสมาชิก"; ObjectID = "uW7-rY-ebv"; */
+"uW7-rY-ebv.normalTitle" = "สมัครสมาชิก";
+
+/* Class = "UITextField"; placeholder = "  รหัสผ่าน"; ObjectID = "xqc-Ys-b2c"; */
+"xqc-Ys-b2c.placeholder" = "  รหัสผ่าน";
+
+/* Class = "UIButton"; normalTitle = "เข้าสู่ระบบด้วย email"; ObjectID = "yuJ-fL-0oX"; */
+"yuJ-fL-0oX.normalTitle" = "เข้าสู่ระบบด้วย email";
