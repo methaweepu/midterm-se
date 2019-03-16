@@ -1,24 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Pantip_Midterm_SE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pantip_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BkN-Et-Mcl">
+                                <rect key="frame" x="68" y="50" width="239" height="127.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BkN-Et-Mcl" secondAttribute="height" multiplier="15:8" id="gV8-Og-8Ld"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bh-HQ-fwj">
+                                <rect key="frame" x="60" y="336" width="255" height="45"/>
+                                <color key="backgroundColor" red="0.12310939305357509" green="0.21695550924611223" blue="0.7548381979695431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="qUU-lK-L9w"/>
+                                </constraints>
+                                <state key="normal" title=" เข้าสู่ระบบด้วย facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kM3-La-Naw">
+                                <rect key="frame" x="60" y="389" width="255" height="45"/>
+                                <color key="backgroundColor" red="0.45763586852685667" green="0.76078504094687915" blue="0.79060913705583757" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="dg8-HX-8EG"/>
+                                </constraints>
+                                <color key="tintColor" red="0.43693023282204002" green="0.7263634866263492" blue="0.7548381979695431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="เข้าสู่ระบบด้วย twitter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuJ-fL-0oX">
+                                <rect key="frame" x="60" y="442" width="255" height="45"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="YE5-Gd-Gq2"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="เข้าสู่ระบบด้วย email">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uW7-rY-ebv">
+                                <rect key="frame" x="60" y="495" width="74" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="สมัครสมาชิก">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk7-L0-UHp">
+                                <rect key="frame" x="250" y="495" width="65" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="ลืมรหัสผ่าน">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30073139071464539" green="0.16873669624328613" blue="0.4863017201423645" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="9bh-HQ-fwj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="2bY-Dd-cAe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9bh-HQ-fwj" secondAttribute="trailing" constant="60" id="3q3-jE-oJk"/>
+                            <constraint firstItem="uW7-rY-ebv" firstAttribute="top" secondItem="yuJ-fL-0oX" secondAttribute="bottom" constant="8" id="76J-Nd-h2o"/>
+                            <constraint firstItem="yuJ-fL-0oX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="86u-Qm-02T"/>
+                            <constraint firstItem="BkN-Et-Mcl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="8Da-8t-1q9"/>
+                            <constraint firstItem="BkN-Et-Mcl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="E71-fo-zPT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kM3-La-Naw" secondAttribute="trailing" constant="60" id="Gdj-YG-afI"/>
+                            <constraint firstItem="kM3-La-Naw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="JiH-ab-ciq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yuJ-fL-0oX" secondAttribute="bottom" constant="180" id="Mes-TO-C18"/>
+                            <constraint firstItem="Mk7-L0-UHp" firstAttribute="trailing" secondItem="yuJ-fL-0oX" secondAttribute="trailing" id="Rfa-Xe-QSF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yuJ-fL-0oX" secondAttribute="trailing" constant="60" id="Ueh-US-q89"/>
+                            <constraint firstItem="yuJ-fL-0oX" firstAttribute="top" secondItem="kM3-La-Naw" secondAttribute="bottom" constant="8" id="ZNp-V3-mp9"/>
+                            <constraint firstItem="Mk7-L0-UHp" firstAttribute="top" secondItem="yuJ-fL-0oX" secondAttribute="bottom" constant="8" id="gA6-iN-sbG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BkN-Et-Mcl" secondAttribute="trailing" constant="68" id="qSY-L2-ERL"/>
+                            <constraint firstItem="yuJ-fL-0oX" firstAttribute="top" secondItem="kM3-La-Naw" secondAttribute="bottom" constant="8" id="qmn-kQ-b2D"/>
+                            <constraint firstItem="uW7-rY-ebv" firstAttribute="leading" secondItem="yuJ-fL-0oX" secondAttribute="leading" id="wLk-sn-EgZ"/>
+                            <constraint firstItem="kM3-La-Naw" firstAttribute="top" secondItem="9bh-HQ-fwj" secondAttribute="bottom" constant="8" id="yW4-vh-PWf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="42.399999999999999" y="60.719640179910051"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Pantip_Logo" width="1200" height="630"/>
+    </resources>
 </document>
