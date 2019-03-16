@@ -15,6 +15,7 @@
 		DD59B4F3223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B4F2223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift */; };
 		DD59B4FE223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B4FD223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift */; };
 		DD59B50C223CE1D400C3E78F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B50B223CE1D400C3E78F /* LoginViewController.swift */; };
+		DD59B50E223CE47700C3E78F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B50D223CE47700C3E78F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD59B4FD223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantip_Midterm_SEUITests.swift; sourceTree = "<group>"; };
 		DD59B4FF223CDF6C00C3E78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD59B50B223CE1D400C3E78F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD59B50D223CE47700C3E78F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DD59B4E6223CDF6C00C3E78F /* LaunchScreen.storyboard */,
 				DD59B4E9223CDF6C00C3E78F /* Info.plist */,
 				DD59B50B223CE1D400C3E78F /* LoginViewController.swift */,
+				DD59B50D223CE47700C3E78F /* RegisterViewController.swift */,
 			);
 			path = "Pantip Midterm-SE";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				DD59B50C223CE1D400C3E78F /* LoginViewController.swift in Sources */,
 				DD59B4E0223CDF6A00C3E78F /* ViewController.swift in Sources */,
 				DD59B4DE223CDF6A00C3E78F /* AppDelegate.swift in Sources */,
+				DD59B50E223CE47700C3E78F /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
