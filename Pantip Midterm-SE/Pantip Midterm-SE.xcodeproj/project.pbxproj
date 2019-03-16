@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD59B4DE223CDF6A00C3E78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B4DD223CDF6A00C3E78F /* AppDelegate.swift */; };
+		DD59B4E0223CDF6A00C3E78F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B4DF223CDF6A00C3E78F /* ViewController.swift */; };
+		DD59B4E3223CDF6A00C3E78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59B4E1223CDF6A00C3E78F /* Main.storyboard */; };
+		DD59B4E5223CDF6C00C3E78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD59B4E4223CDF6C00C3E78F /* Assets.xcassets */; };
+		DD59B4E8223CDF6C00C3E78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59B4E6223CDF6C00C3E78F /* LaunchScreen.storyboard */; };
+		DD59B4F3223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B4F2223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift */; };
+		DD59B4FE223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59B4FD223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD59B4EF223CDF6C00C3E78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD59B4D2223CDF6A00C3E78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD59B4D9223CDF6A00C3E78F;
+			remoteInfo = "Pantip Midterm-SE";
+		};
+		DD59B4FA223CDF6C00C3E78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD59B4D2223CDF6A00C3E78F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD59B4D9223CDF6A00C3E78F;
+			remoteInfo = "Pantip Midterm-SE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD59B4DA223CDF6A00C3E78F /* Pantip Midterm-SE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pantip Midterm-SE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD59B4DD223CDF6A00C3E78F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD59B4DF223CDF6A00C3E78F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD59B4E2223CDF6A00C3E78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD59B4E4223CDF6C00C3E78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD59B4E7223CDF6C00C3E78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD59B4E9223CDF6C00C3E78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD59B4EE223CDF6C00C3E78F /* Pantip Midterm-SETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pantip Midterm-SETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD59B4F2223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantip_Midterm_SETests.swift; sourceTree = "<group>"; };
+		DD59B4F4223CDF6C00C3E78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD59B4F9223CDF6C00C3E78F /* Pantip Midterm-SEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pantip Midterm-SEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD59B4FD223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantip_Midterm_SEUITests.swift; sourceTree = "<group>"; };
+		DD59B4FF223CDF6C00C3E78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD59B4D7223CDF6A00C3E78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59B4EB223CDF6C00C3E78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59B4F6223CDF6C00C3E78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD59B4D1223CDF6A00C3E78F = {
+			isa = PBXGroup;
+			children = (
+				DD59B4DC223CDF6A00C3E78F /* Pantip Midterm-SE */,
+				DD59B4F1223CDF6C00C3E78F /* Pantip Midterm-SETests */,
+				DD59B4FC223CDF6C00C3E78F /* Pantip Midterm-SEUITests */,
+				DD59B4DB223CDF6A00C3E78F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD59B4DB223CDF6A00C3E78F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD59B4DA223CDF6A00C3E78F /* Pantip Midterm-SE.app */,
+				DD59B4EE223CDF6C00C3E78F /* Pantip Midterm-SETests.xctest */,
+				DD59B4F9223CDF6C00C3E78F /* Pantip Midterm-SEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD59B4DC223CDF6A00C3E78F /* Pantip Midterm-SE */ = {
+			isa = PBXGroup;
+			children = (
+				DD59B4DD223CDF6A00C3E78F /* AppDelegate.swift */,
+				DD59B4DF223CDF6A00C3E78F /* ViewController.swift */,
+				DD59B4E1223CDF6A00C3E78F /* Main.storyboard */,
+				DD59B4E4223CDF6C00C3E78F /* Assets.xcassets */,
+				DD59B4E6223CDF6C00C3E78F /* LaunchScreen.storyboard */,
+				DD59B4E9223CDF6C00C3E78F /* Info.plist */,
+			);
+			path = "Pantip Midterm-SE";
+			sourceTree = "<group>";
+		};
+		DD59B4F1223CDF6C00C3E78F /* Pantip Midterm-SETests */ = {
+			isa = PBXGroup;
+			children = (
+				DD59B4F2223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift */,
+				DD59B4F4223CDF6C00C3E78F /* Info.plist */,
+			);
+			path = "Pantip Midterm-SETests";
+			sourceTree = "<group>";
+		};
+		DD59B4FC223CDF6C00C3E78F /* Pantip Midterm-SEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD59B4FD223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift */,
+				DD59B4FF223CDF6C00C3E78F /* Info.plist */,
+			);
+			path = "Pantip Midterm-SEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD59B4D9223CDF6A00C3E78F /* Pantip Midterm-SE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59B502223CDF6C00C3E78F /* Build configuration list for PBXNativeTarget "Pantip Midterm-SE" */;
+			buildPhases = (
+				DD59B4D6223CDF6A00C3E78F /* Sources */,
+				DD59B4D7223CDF6A00C3E78F /* Frameworks */,
+				DD59B4D8223CDF6A00C3E78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pantip Midterm-SE";
+			productName = "Pantip Midterm-SE";
+			productReference = DD59B4DA223CDF6A00C3E78F /* Pantip Midterm-SE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD59B4ED223CDF6C00C3E78F /* Pantip Midterm-SETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59B505223CDF6C00C3E78F /* Build configuration list for PBXNativeTarget "Pantip Midterm-SETests" */;
+			buildPhases = (
+				DD59B4EA223CDF6C00C3E78F /* Sources */,
+				DD59B4EB223CDF6C00C3E78F /* Frameworks */,
+				DD59B4EC223CDF6C00C3E78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD59B4F0223CDF6C00C3E78F /* PBXTargetDependency */,
+			);
+			name = "Pantip Midterm-SETests";
+			productName = "Pantip Midterm-SETests";
+			productReference = DD59B4EE223CDF6C00C3E78F /* Pantip Midterm-SETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD59B4F8223CDF6C00C3E78F /* Pantip Midterm-SEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59B508223CDF6C00C3E78F /* Build configuration list for PBXNativeTarget "Pantip Midterm-SEUITests" */;
+			buildPhases = (
+				DD59B4F5223CDF6C00C3E78F /* Sources */,
+				DD59B4F6223CDF6C00C3E78F /* Frameworks */,
+				DD59B4F7223CDF6C00C3E78F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD59B4FB223CDF6C00C3E78F /* PBXTargetDependency */,
+			);
+			name = "Pantip Midterm-SEUITests";
+			productName = "Pantip Midterm-SEUITests";
+			productReference = DD59B4F9223CDF6C00C3E78F /* Pantip Midterm-SEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD59B4D2223CDF6A00C3E78F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Methawee Punkaew";
+				TargetAttributes = {
+					DD59B4D9223CDF6A00C3E78F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DD59B4ED223CDF6C00C3E78F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD59B4D9223CDF6A00C3E78F;
+					};
+					DD59B4F8223CDF6C00C3E78F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DD59B4D9223CDF6A00C3E78F;
+					};
+				};
+			};
+			buildConfigurationList = DD59B4D5223CDF6A00C3E78F /* Build configuration list for PBXProject "Pantip Midterm-SE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD59B4D1223CDF6A00C3E78F;
+			productRefGroup = DD59B4DB223CDF6A00C3E78F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD59B4D9223CDF6A00C3E78F /* Pantip Midterm-SE */,
+				DD59B4ED223CDF6C00C3E78F /* Pantip Midterm-SETests */,
+				DD59B4F8223CDF6C00C3E78F /* Pantip Midterm-SEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD59B4D8223CDF6A00C3E78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59B4E8223CDF6C00C3E78F /* LaunchScreen.storyboard in Resources */,
+				DD59B4E5223CDF6C00C3E78F /* Assets.xcassets in Resources */,
+				DD59B4E3223CDF6A00C3E78F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59B4EC223CDF6C00C3E78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59B4F7223CDF6C00C3E78F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD59B4D6223CDF6A00C3E78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59B4E0223CDF6A00C3E78F /* ViewController.swift in Sources */,
+				DD59B4DE223CDF6A00C3E78F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59B4EA223CDF6C00C3E78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59B4F3223CDF6C00C3E78F /* Pantip_Midterm_SETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59B4F5223CDF6C00C3E78F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59B4FE223CDF6C00C3E78F /* Pantip_Midterm_SEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD59B4F0223CDF6C00C3E78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD59B4D9223CDF6A00C3E78F /* Pantip Midterm-SE */;
+			targetProxy = DD59B4EF223CDF6C00C3E78F /* PBXContainerItemProxy */;
+		};
+		DD59B4FB223CDF6C00C3E78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD59B4D9223CDF6A00C3E78F /* Pantip Midterm-SE */;
+			targetProxy = DD59B4FA223CDF6C00C3E78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD59B4E1223CDF6A00C3E78F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD59B4E2223CDF6A00C3E78F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD59B4E6223CDF6C00C3E78F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD59B4E7223CDF6C00C3E78F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD59B500223CDF6C00C3E78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD59B501223CDF6C00C3E78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD59B503223CDF6C00C3E78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVFDNL6D2D;
+				INFOPLIST_FILE = "Pantip Midterm-SE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysd.Pantip-Midterm-SE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD59B504223CDF6C00C3E78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVFDNL6D2D;
+				INFOPLIST_FILE = "Pantip Midterm-SE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysd.Pantip-Midterm-SE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD59B506223CDF6C00C3E78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVFDNL6D2D;
+				INFOPLIST_FILE = "Pantip Midterm-SETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysd.Pantip-Midterm-SETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantip Midterm-SE.app/Pantip Midterm-SE";
+			};
+			name = Debug;
+		};
+		DD59B507223CDF6C00C3E78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVFDNL6D2D;
+				INFOPLIST_FILE = "Pantip Midterm-SETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysd.Pantip-Midterm-SETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantip Midterm-SE.app/Pantip Midterm-SE";
+			};
+			name = Release;
+		};
+		DD59B509223CDF6C00C3E78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVFDNL6D2D;
+				INFOPLIST_FILE = "Pantip Midterm-SEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysd.Pantip-Midterm-SEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pantip Midterm-SE";
+			};
+			name = Debug;
+		};
+		DD59B50A223CDF6C00C3E78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVFDNL6D2D;
+				INFOPLIST_FILE = "Pantip Midterm-SEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ysd.Pantip-Midterm-SEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pantip Midterm-SE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD59B4D5223CDF6A00C3E78F /* Build configuration list for PBXProject "Pantip Midterm-SE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59B500223CDF6C00C3E78F /* Debug */,
+				DD59B501223CDF6C00C3E78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59B502223CDF6C00C3E78F /* Build configuration list for PBXNativeTarget "Pantip Midterm-SE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59B503223CDF6C00C3E78F /* Debug */,
+				DD59B504223CDF6C00C3E78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59B505223CDF6C00C3E78F /* Build configuration list for PBXNativeTarget "Pantip Midterm-SETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59B506223CDF6C00C3E78F /* Debug */,
+				DD59B507223CDF6C00C3E78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59B508223CDF6C00C3E78F /* Build configuration list for PBXNativeTarget "Pantip Midterm-SEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59B509223CDF6C00C3E78F /* Debug */,
+				DD59B50A223CDF6C00C3E78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD59B4D2223CDF6A00C3E78F /* Project object */;
+}
